@@ -3,7 +3,7 @@ About extras
 
 Home: https://github.com/testing-cabal/extras
 
-Package license: MIT License
+Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
