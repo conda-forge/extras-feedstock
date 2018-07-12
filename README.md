@@ -14,14 +14,15 @@ Summary: Useful extra bits for Python - things that shold be in the standard lib
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/extras-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/extras-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/extras-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/extras-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/extras-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/extras-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/extras-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/extras-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/extras/badges/version.svg)](https://anaconda.org/conda-forge/extras)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/extras/badges/downloads.svg)](https://anaconda.org/conda-forge/extras)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-extras-green.svg)](https://anaconda.org/conda-forge/extras) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/extras.svg)](https://anaconda.org/conda-forge/extras) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/extras.svg)](https://anaconda.org/conda-forge/extras) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/extras.svg)](https://anaconda.org/conda-forge/extras) |
 
 Installing extras
 =================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
